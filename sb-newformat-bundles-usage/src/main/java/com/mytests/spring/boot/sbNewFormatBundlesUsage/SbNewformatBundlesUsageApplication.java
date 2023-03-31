@@ -10,15 +10,16 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 @AutoConfigureMyBeans
 public class SbNewformatBundlesUsageApplication implements CommandLineRunner {
-@Autowired
-ApplicationContext ctx;
+    @Autowired
+    ApplicationContext ctx;
+
     public static void main(String[] args) {
         SpringApplication.run(SbNewformatBundlesUsageApplication.class, args);
     }
 
     @Override
     public void run(String... args) throws Exception {
-UsageService usageService = ctx.getBean(UsageService.class);
-usageService.display();
+        UsageService usageService = ctx.getBean(UsageService.class);
+        usageService.display();
     }
 }

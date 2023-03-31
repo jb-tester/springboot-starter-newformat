@@ -20,12 +20,9 @@ public class UsageService {
     @Autowired MainConfig1 mainConfig1;
     @Autowired MainConfig2 mainConfig2;
     @Autowired ImportedConfig1 importedConfig1;
-    @Autowired
-    BundleBean1 bundleBean1;
-    @Autowired
-    BundleBean2 bundleBean2;
-    @Autowired
-    private BundleBean3 bundleBean3;
+    @Autowired BundleBean1 bundleBean1;
+    @Autowired BundleBean2 bundleBean2;
+    @Autowired BundleBean3 bundleBean3;
 
 
     // configuration defined in custom file com.mytests.spring.boot.sbNewFormatBundle1.AutoConfigureMyBeans.imports
