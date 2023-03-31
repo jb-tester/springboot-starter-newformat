@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
  * <p> This configuration defines the beans that should be available</p>
  * <p> if @AutoConfigureMyBeans annotation is present </p>
  */
-@AutoConfiguration
+//@AutoConfiguration
 public class MyBeansConfiguration {
 
     @Bean

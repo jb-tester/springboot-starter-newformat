@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean;
  * <p>Project: springboot-starter-newformat</p>
  * *
  */
+//@Configuration
 public class MainConfig2 {
 
     @Bean
